@@ -1,0 +1,33 @@
+Algoritmo "Exercício 24"
+// Insted ADS 2022
+// Disciplina   : [Lógica de Programação]
+// Professor   : Edilene
+// Autor(a)    : Deborah Sakamoto
+// Data atual  : 06/03/2022
+// Faça um programa que receba a quantidade de dinheiro em reais
+// que uma pessoa que vai viajar possui. Ela vai passar por vários países
+// e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina.
+// Sabe-se que a cotação do dólar é de R$ 1,80; do marco alemão, de R$ 2,00;
+// e da libra esterlina, de R$ 3,57. O programa deve fazer as conversões
+// e mostrá-las.
+
+Var
+
+dindin, dolar, marco, libra  :real
+
+
+Inicio
+
+escreval ("Informe qual a quantidade de dinheiro em reais")
+leia (dindin)
+
+dolar <- dindin/1.8
+marco <- dindin/2
+libra <- dindin/3.57
+
+escreval ("Com ", dindin, " reais você tem:", dolar, " de dólares")
+escreval ("Ou: ", marco, " de marco alemão")
+escreval ("Ou: ",libra, " de libras esterlinas.")
+
+
+Fimalgoritmo
