@@ -1,0 +1,28 @@
+Algoritmo "Exercício 6"
+// Insted ADS 2022
+// Disciplina   : [Lógica de Programação]
+// Professor   : Edilene
+// Aluna    : Deborah Sakamoto Echague
+// Data atual  : 06/03/2022
+// Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas.
+// Faça um programa que receba o salário fixo do funcionário e o valor de suas
+// vendas, calcule e mostre a comissão e seu salário final.
+
+Var
+sal, comis, vendas, salfinal :real
+
+
+Inicio
+
+escreval ("Qual o valor do salário?")
+leia (sal)
+escreval ("Qual o valor do total das vendas?")
+leia (vendas)
+
+comis <- vendas*0.04
+salfinal <- sal+comis
+
+escreval ("O seu valor de comissão foi de:", comis)
+escreval ("O seu salário final com a comissão será de: ", salfinal)
+
+Fimalgoritmo
